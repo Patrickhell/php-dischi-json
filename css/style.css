@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:black;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cardContent{
+    width: calc(100% - 200px);
+    height: 100vh;
+    background-color: #1d2d3c;
+     margin: 0 auto;
+    
+}
+
+header{
+    background-color:#06131f;
+    height: 60px;
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    
+}
+
+div.rightSide, .leftSide{
+   width: 100px;
+    height: 100%;
+   
+
+}
+.cards{
+   width: 800px;
+   
+   margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.card {
+    width: calc((100% / 3) - 2rem);
+    margin:1rem;
+    
+    background-color: #112030;
+
+}
+img{
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1rem;
+    
+
+}
+
+.fontCard{
+    font-size: 12px;
+}
